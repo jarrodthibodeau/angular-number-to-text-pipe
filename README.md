@@ -11,10 +11,10 @@ I honestly could not tell you what a use-case for this could be but this was a q
 ## Usage 
 
 #### In your module
-    import { NumberToTextPipe } from 'angular-number-to-text'
+    import { NumberToTextModule } from 'angular-number-to-text'
 
     @NgModule({
-        declarations: [
+        imports: [
             NumberToTextPipe
         ]
     })
