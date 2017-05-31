@@ -6,8 +6,8 @@
   "module": "index.js",
   "typings": "index.d.ts",
   "scripts": {
-    "prepublish": "npm run transpile && npm run package && npm run minify",
-    "minify": "uglifyjs dist/bundles/angular-number-to-text.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/angular-number-to-text.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify",
+    "minify": "uglifyjs bundles/angular-number-to-text.umd.js --screw-ie8 --compress --mangle --comments --output bundles/angular-number-to-text.umd.min.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "package": "rollup -c",
     "test": "node_modules/.bin/karma start karma.conf.js",

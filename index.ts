@@ -1,0 +1,1 @@
+export { NumberToTextModule } from './number-to-text.module';

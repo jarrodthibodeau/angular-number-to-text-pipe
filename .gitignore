@@ -1,3 +1,11 @@
 coverage
 node_modules
 .vscode/
+*.ngfactory.ts
+*.ngsummary.json
+*.metadata.json
+*.d.ts
+bundles
+*.log
+*.map
+*.js

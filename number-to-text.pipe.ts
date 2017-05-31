@@ -8,7 +8,7 @@ interface NumbersObject {
 @Pipe({ name: 'numberToText' })
 export class NumberToTextPipe implements PipeTransform {
 
-    numbers: NumbersObject = {
+    private numbers: NumbersObject = {
         0: '',
         '00': '',
         '000': '',
